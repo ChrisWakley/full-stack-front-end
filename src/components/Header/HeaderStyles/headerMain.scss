@@ -1,0 +1,8 @@
+@use "./headerComponents" as *;
+@use "./headerLayout" as *;
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.header {
+    background-color: $color-nav;
+}

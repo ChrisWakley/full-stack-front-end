@@ -1,0 +1,13 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.landing__header--text {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: $font-heading;
+}
+
+.landing__body--text {
+    font-size: 1.8rem;
+    font-family: $font-main;
+}

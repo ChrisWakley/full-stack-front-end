@@ -1,0 +1,17 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.header {
+    background-color: $color-nav;
+    &__image {
+        background-color: $color-nav;
+    }
+    &__title {
+        color: $color-lightText;
+        background-color: $color-nav;
+        font-family: $font-heading;
+        font-size: 5rem;
+        font-weight: 600;
+        text-shadow: 0.2rem 0.2rem $color-text-shadow;
+    }
+}

@@ -1,0 +1,29 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 3;
+    top: 0%;
+    width: 12%;
+    border-right: 0.3rem solid $color-box-shadow;
+    height: 100%;
+    &__link {
+        &--home {
+            position: relative;
+            margin-top: 15rem;
+        }
+        &--database {
+            position: relative;
+            margin-bottom: 10rem;
+        }
+        &--compare {
+            position: relative;
+            bottom: 10rem;
+        }
+    }
+}

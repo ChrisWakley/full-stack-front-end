@@ -1,0 +1,21 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    height: 15vh;
+    width: 88%;
+    border-bottom: 0.3rem solid $color-box-shadow;
+    &__image {
+        height: 8rem;
+        width: 8rem;
+    }
+    &__title {
+        margin-top: 2.5rem;
+    }
+}

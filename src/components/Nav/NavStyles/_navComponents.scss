@@ -1,0 +1,17 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.nav {
+    &__link {
+        background-color: $color-nav;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 800;
+        font-family: $font-link;
+        color: $color-secondary;
+    }
+    &__link:hover {
+        text-shadow: 0.1rem 0.1rem $color-lightText;
+        color: $color-focus;
+    }
+}

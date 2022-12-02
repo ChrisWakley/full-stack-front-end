@@ -1,0 +1,8 @@
+@use "./landingComponents" as *;
+@use "./landingLayout" as *;
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.landing {
+    background-color: $color-body;
+}

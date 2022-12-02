@@ -1,0 +1,9 @@
+@use "./styles/typography" as *;
+@use "./styles/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+
+  background-color: $color-body;
+}
