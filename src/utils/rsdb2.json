@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "tier": "1",
+        "material": "bronze",
+        "name": "dagger",
+        "type": "weapon",
+        "static damage": "#",
+        "ability damage": "#",
+        "accuracy": "#",
+        "prayer bonus": "#",
+        "lifepoint bonus": "#",
+        "defence rating": "#"
+    },
+    {
+        "id": 2,
+        "tier": "1",
+        "material": "bronze",
+        "name": "sword",
+        "type": "weapon",
+        "static damage": "#",
+        "ability damage": "#",
+        "accuracy": "#",
+        "prayer bonus": "#",
+        "lifepoint bonus": "#",
+        "defence rating": "#"
+    },
+    {
+        "id": 3,
+        "tier": "1",
+        "material": "bronze",
+        "name": "longsword",
+        "type": "weapon",
+        "static damage": "#",
+        "ability damage": "#",
+        "accuracy": "#",
+        "prayer bonus": "#",
+        "lifepoint bonus": "#",
+        "defence rating": "#"
+    },
+    {
+        "id": 3,
+        "tier": "1",
+        "material": "bronze",
+        "name": "scimitar",
+        "type": "weapon",
+        "static damage": "#",
+        "ability damage": "#",
+        "accuracy": "#",
+        "prayer bonus": "#",
+        "lifepoint bonus": "#",
+        "defence rating": "#"
+    },
+    {
+        "id": 4,
+        "tier": "1",
+        "material": "bronze",
+        "name": "mace",
+        "type": "weapon",
+        "static damage": "#",
+        "ability damage": "#",
+        "accuracy": "#",
+        "prayer bonus": "#",
+        "lifepoint bonus": "#",
+        "defence rating": "#"
+    },
+    {
+        "id": 2,
+        "tier": "1",
+        "material": "bronze",
+        "name": "sword",
+        "type": "weapon",
+        "static damage": "#",
+        "ability damage": "#",
+        "accuracy": "#",
+        "prayer bonus": "#",
+        "lifepoint bonus": "#",
+        "defence rating": "#"
+    }
+]

@@ -1,0 +1,178 @@
+{
+    "gearData": {
+        "material": {
+            "bronze": {
+                "weapons": [
+                    "dagger",
+                    "sword",
+                    "longsword",
+                    "scimitar",
+                    "mace",
+                    "battleaxe",
+                    "warhammer",
+                    "spear",
+                    "two-hand sword",
+                    "halberd",
+                    "dual dagger",
+                    "dual sword",
+                    "dual longsword",
+                    "dual scimitar",
+                    "dual mace",
+                    "dual battleaxe",
+                    "dual warhammer",
+                    "dual claw"
+                ],
+                "armour": [
+                    "helmet",
+                    "full helmet",
+                    "chainmail",
+                    "chesplate",
+                    "plateskirt",
+                    "platelegs",
+                    "boots",
+                    "gauntlets",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "iron": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "steel": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "mithril": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "adamant": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "rune": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "orikalkum": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "necronium": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "bane": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "elder rune": {
+                "weapons": ["longsword", "battleaxe", "warhammer"],
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "square shield",
+                    "kite shield",
+                    "set"
+                ]
+            },
+            "masterwork": {
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "set"
+                ]
+            },
+            "trimmed masterwork": {
+                "armour": [
+                    "helmet",
+                    "chesplate",
+                    "platelegs",
+                    "boots",
+                    "gloves",
+                    "set"
+                ]
+            }
+        }
+    }
+}
