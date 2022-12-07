@@ -1,0 +1,11 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.statCheck {
+    &__header {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: $font-heading;
+        color: $color-lightText;
+    }
+}

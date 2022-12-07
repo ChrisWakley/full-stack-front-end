@@ -1,0 +1,11 @@
+.cardContainer {
+    position: relative;
+    top: 22%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0.8rem, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+    height: 100%;
+    width: 76vw;
+    left: 6%;
+}

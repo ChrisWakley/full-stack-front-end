@@ -1,0 +1,8 @@
+@use "./cardComponents" as *;
+@use "./cardLayout" as *;
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.card {
+    background-color: $color-card;
+}

@@ -1,0 +1,29 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.button__bronze {
+    background-color: $color-bronze;
+    font-size: 1.2rem;
+    font-family: $font-link;
+    font-weight: 700;
+}
+
+.button__iron {
+    background-color: $color-iron;
+    font-size: 1.2rem;
+    font-family: $font-link;
+    font-weight: 700;
+}
+
+.button__steel {
+    background-color: $color-steel;
+    font-size: 1.2rem;
+    font-family: $font-link;
+    font-weight: 700;
+}
+
+.button__large {
+    font-size: 1.2rem;
+    font-family: $font-link;
+    font-weight: 700;
+}

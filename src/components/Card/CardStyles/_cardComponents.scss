@@ -1,0 +1,73 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.card {
+    color: $color-lightText;
+    &__header {
+        font-size: 1.8rem;
+    }
+    &__infoMain {
+        &--tierDescription {
+            font-size: 1rem;
+        }
+        &--tierActual {
+            font-size: 0.8rem;
+        }
+        &--typeDescription {
+            font-size: 1rem;
+        }
+        &--typeActual {
+            font-size: 0.8rem;
+        }
+        &--handleDescription {
+            font-size: 1rem;
+        }
+        &--handleActual {
+            font-size: 0.8rem;
+        }
+        &--sDamageDescription {
+            font-size: 1rem;
+        }
+        &--sDamageActual {
+            font-size: 0.8rem;
+        }
+        &--aDamageDescription {
+            font-size: 1rem;
+        }
+        &--aDamageActual {
+            font-size: 0.8rem;
+        }
+    }
+    &__infoSub {
+        &--accuracyDescription {
+            font-size: 1rem;
+        }
+        &--accuracyActual {
+            font-size: 0.8rem;
+        }
+        &--pBonusDescription {
+            font-size: 1rem;
+        }
+        &--pBonusActual {
+            font-size: 0.8rem;
+        }
+        &--lpBonusDescription {
+            font-size: 1rem;
+        }
+        &--lpBonusActual {
+            font-size: 0.8rem;
+        }
+        &--dRatingDescription {
+            font-size: 1rem;
+        }
+        &--dRatingActual {
+            font-size: 0.8rem;
+        }
+        &--styleDescription {
+            font-size: 1rem;
+        }
+        &--styleActual {
+            font-size: 0.8rem;
+        }
+    }
+}

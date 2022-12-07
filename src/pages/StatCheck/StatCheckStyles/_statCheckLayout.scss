@@ -1,0 +1,35 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.statCheck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    height: 84vh;
+    width: 88%;
+    &__header {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        top: 15.4%;
+        justify-content: center;
+        width: 100%;
+        border-bottom: 0.3rem solid $color-box-shadow;
+    }
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        position: fixed;
+        z-index: 1;
+        top: 15%;
+        left: 12%;
+        width: 10%;
+        border-right: 0.3rem solid $color-box-shadow;
+        border-top: 0.3rem solid $color-box-shadow;
+        height: 100%;
+    }
+}

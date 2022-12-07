@@ -1,0 +1,232 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-top: 0.3rem solid $color-card;
+    border-bottom: 0.3rem solid $color-card;
+    &__header {
+        display: flex;
+        height: 8%;
+        width: 22rem;
+        justify-content: center;
+        border-bottom: 0.3rem solid $color-card;
+        &--text {
+            height: 100%;
+        }
+    }
+    &__imageContainer {
+        display: flex;
+        justify-content: center;
+        height: 10rem;
+        width: 95%;
+    }
+    &__info {
+        width: 95%;
+        display: grid;
+        justify-content: right;
+        grid-template-columns: 47% 47%;
+        column-gap: 1.4rem;
+        grid-template-rows: 100%;
+        height: 60%;
+        grid-template-areas: "infoMain infoSub";
+    }
+    &__infoMain {
+        grid-area: infoMain;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-areas:
+            "tier"
+            "type"
+            "handle"
+            "sDamage"
+            "aDamage";
+        &--tier {
+            grid-area: tier;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "tDesc tAct";
+        }
+        &--tierDescription {
+            grid-area: tDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--tierActual {
+            grid-area: tAct;
+            display: flex;
+            align-items: center;
+        }
+        &--type {
+            grid-area: type;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "tyDesc tyAct";
+        }
+        &--typeDescription {
+            grid-area: tyDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--typeActual {
+            grid-area: tyAct;
+            display: flex;
+            align-items: center;
+        }
+        &--handle {
+            grid-area: handle;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "hDesc hAct";
+        }
+        &--handleDescription {
+            grid-area: hDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--handleActual {
+            grid-area: hAct;
+            display: flex;
+            align-items: center;
+        }
+        &--sDamage {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "sDesc sAct";
+        }
+        &--sDamageDescription {
+            grid-area: sDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--sDamageActual {
+            grid-area: sAct;
+            display: flex;
+            align-items: center;
+        }
+        &--aDamage {
+            grid-area: aDamage;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "aDesc aAct";
+        }
+        &--aDamageDescription {
+            grid-area: aDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--aDamageActual {
+            grid-area: aAct;
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__infoSub {
+        grid-template-areas: infoSub;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-areas:
+            "accuracy"
+            "pBonus"
+            "lpBonus"
+            "dRating"
+            "combatStyle";
+        &--accuracy {
+            grid-area: accuracy;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "acDesc acAct";
+        }
+        &--accuracyDescription {
+            grid-area: acDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--accuracyActual {
+            grid-area: acAct;
+            display: flex;
+            align-items: center;
+        }
+        &--pBonus {
+            grid-area: pBonus;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "pDesc pAct";
+        }
+        &--pBonusDescription {
+            grid-area: pDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--pBonusActual {
+            grid-area: pAct;
+            display: flex;
+            align-items: center;
+        }
+        &--lpBonus {
+            grid-area: lpBonus;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "lpDesc lpAct";
+        }
+        &--lpBonusDescription {
+            grid-area: lpDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--lpBonusActual {
+            grid-area: lpAct;
+            display: flex;
+            align-items: center;
+        }
+        &--dRating {
+            grid-area: dRating;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "dDesc dAct";
+        }
+        &--dRatingDescription {
+            grid-area: dDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--dRatingActual {
+            grid-area: dAct;
+            display: flex;
+            align-items: center;
+        }
+        &--style {
+            grid-area: combatStyle;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 100%;
+            grid-template-areas: "csDesc csAct";
+        }
+        &--styleDescription {
+            grid-area: csDesc;
+            display: flex;
+            align-items: center;
+        }
+        &--styleActual {
+            grid-area: csAct;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
