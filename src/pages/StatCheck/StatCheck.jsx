@@ -2,6 +2,7 @@ import "./StatCheckStyles/statCheckMain.scss";
 import Button from "../../components/Button/Button";
 import CardContainer from "../../components/CardContainer/CardContainer";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const StatCheck = () => {
     const [stats, setStats] = useState([]);
@@ -15,7 +16,7 @@ const StatCheck = () => {
 
     useEffect(() => {
         getStats("http://localhost:8080/stats/all");
-    });
+    }, []);
 
     useEffect(() => {
         if (material) {
@@ -38,12 +39,18 @@ const StatCheck = () => {
     const handleMaterial = (event) => {
         const cleanedInput = event.target.innerHTML.toLowerCase();
         setMaterial(cleanedInput);
-        console.log(cleanedInput);
     };
 
     return (
         <div className='statCheck'>
-            <div className='statCheck__header'>Database</div>
+            <div className='statCheck__header'>
+                Database
+                <div className='statCheck__headerLink'>
+                    <Link to={"/form"} className='statCheck__headerLink--text'>
+                        Add New
+                    </Link>
+                </div>
+            </div>
             <nav className='statCheck__nav'>
                 <Button
                     buttonClass='button__bronze'

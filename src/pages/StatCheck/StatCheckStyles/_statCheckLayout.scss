@@ -15,8 +15,15 @@
         z-index: 1;
         top: 15.4%;
         justify-content: center;
+        align-items: center;
         width: 100%;
         border-bottom: 0.3rem solid $color-box-shadow;
+    }
+    &__headerLink {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        right: 5%;
     }
     &__nav {
         display: flex;

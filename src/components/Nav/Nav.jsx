@@ -4,7 +4,7 @@ import "./NavStyles/navMain.scss";
 const Nav = () => {
     return (
         <div className='nav'>
-            <NavLink to={"*"} className='nav__link nav__link--home'>
+            <NavLink to={"/landing"} className='nav__link nav__link--home'>
                 Home
             </NavLink>
             <NavLink to={"/database"} className='nav__link nav__link--database'>
