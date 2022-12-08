@@ -1,2 +1,86 @@
 @use "../../../styles/typography" as *;
 @use "../../../styles/variables" as *;
+
+p {
+    color: $color-lightText;
+    font-size: 1.5rem;
+}
+
+.form {
+    &__header {
+        color: $color-lightText;
+        font-size: 2.5rem;
+    }
+    .formContainer {
+        &__idInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__tierInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__materialInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__nameInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__typeInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__handleInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__sDamageInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__aDamageInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__accuracyInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__pBonusInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__lpBonusInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__dRatingInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__styleInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+        &__imageInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+    }
+}

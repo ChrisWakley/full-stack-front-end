@@ -12,7 +12,7 @@ const App = () => {
         <Routes>
             <>
                 <Route
-                    path='/landing'
+                    path='*'
                     element={
                         <>
                             <Header />
