@@ -6,6 +6,7 @@ import Nav from "./components/Nav/Nav";
 import Landing from "./pages/Landing/Landing";
 import Compare from "./pages/Compare/Compare";
 import DataForm from "./pages/DataForm/Form";
+import DeleteForm from "./pages/DeleteForm/DeleteForm";
 
 const App = () => {
     return (
@@ -54,6 +55,18 @@ const App = () => {
                             <Header />
                             <Nav />
                             <DataForm />
+                        </>
+                    }
+                />
+            </>
+            <>
+                <Route
+                    path='/delete'
+                    element={
+                        <>
+                            <Header />
+                            <Nav />
+                            <DeleteForm />
                         </>
                     }
                 />

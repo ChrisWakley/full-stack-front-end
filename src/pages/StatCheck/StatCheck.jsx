@@ -45,6 +45,14 @@ const StatCheck = () => {
         <div className='statCheck'>
             <div className='statCheck__header'>
                 Database
+                <div className='statCheck__headerDelete'>
+                    <Link
+                        to={"/delete"}
+                        className='statCheck__headerLink--text'
+                    >
+                        Delete Entry
+                    </Link>
+                </div>
                 <div className='statCheck__headerLink'>
                     <Link to={"/form"} className='statCheck__headerLink--text'>
                         Add New

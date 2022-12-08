@@ -1,0 +1,21 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+p {
+    color: $color-lightText;
+    font-size: 1.5rem;
+}
+
+.delete {
+    &__header {
+        color: $color-lightText;
+        font-size: 2.5rem;
+    }
+    .deleteContainer {
+        &__idInput {
+            color: $color-lightText;
+            background-color: $color-card;
+            font-size: 1.2rem;
+        }
+    }
+}

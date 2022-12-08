@@ -19,6 +19,12 @@
         width: 100%;
         border-bottom: 0.3rem solid $color-box-shadow;
     }
+    &__headerDelete {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        right: 15%;
+    }
     &__headerLink {
         display: flex;
         position: fixed;

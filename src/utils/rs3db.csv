@@ -1,0 +1,91 @@
+id,tier,material,name,type,handle,static_damage,ability_damage,accuracy,prayer_bonus,lifepoint_bonus,defence_rating,style,image
+1,1,bronze,dagger,weapon,one hand,48,48,150,0,0,0,stab,https://runescape.wiki/images/Bronze_off_hand_dagger_detail.png?85710
+2,1,bronze,sword,weapon,one hand,48,48,150,0,0,0,stab,https://runescape.wiki/images/Bronze_sword_detail.png?4cf3e
+3,1,bronze,longsword,weapon,one hand,61.3,48,150,0,0,0,slash,https://runescape.wiki/images/Bronze_longsword_detail.png?85710
+4,1,bronze,scimitar,weapon,one hand,48,48,150,0,0,0,slash,https://runescape.wiki/images/Bronze_scimitar_detail.png?85710
+5,1,bronze,mace,weapon,one hand,48,48,150,1,0,0,crush,https://runescape.wiki/images/Bronze_mace_detail.png?85710
+6,1,bronze,battleaxe,weapon,one hand,74.5,48,150,0,0,0,slash,https://runescape.wiki/images/Bronze_battleaxe_detail.png?85710
+7,1,bronze,warhammer,weapon,one hand,74.5,48,150,0,0,0,crush,https://runescape.wiki/images/Bronze_warhammer_detail.png?85710
+8,1,bronze,spear,weapon,two hand,111.8,72,150,0,0,0,stab,https://runescape.wiki/images/Bronze_spear_detail.png?85710
+9,1,bronze,two-hand sword,weapon,two hand,111.8,72,150,0,0,0,slash,https://runescape.wiki/images/Bronze_2h_sword_detail.png?85710
+10,1,bronze,halberd,weapon,two hand,111.8,72,150,0,0,0,slash,https://runescape.wiki/images/Bronze_halberd_detail.png?85710
+11,1,bronze,dual dagger,weapon,dual hand,72,72,150,0,0,0,stab,https://runescape.wiki/images/Bronze_off_hand_dagger_detail.png?85710
+12,1,bronze,dual sword,weapon,dual hand,72,72,150,0,0,0,stab,https://runescape.wiki/images/Bronze_off_hand_sword_detail.png?85710
+13,1,bronze,dual longsword,weapon,dual hand,91.9,72,150,0,0,0,stab,https://runescape.wiki/images/Bronze_off_hand_longsword_detail.png?85710
+14,1,bronze,dual scimitar,weapon,dual hand,72,72,150,0,0,0,slash,https://runescape.wiki/images/Bronze_off_hand_scimitar_detail.png?85710
+15,1,bronze,dual mace,weapon,dual hand,72,72,150,1,0,0,crush,https://runescape.wiki/images/Bronze_off_hand_mace_detail.png?85710
+16,1,bronze,dual battleaxe,weapon,dual hand,111.7,72,150,0,0,0,slash,https://runescape.wiki/images/Bronze_off_hand_battleaxe_detail.png?85710
+17,1,bronze,dual warhammer,weapon,dual hand,111.7,72,150,0,0,0,crush,https://runescape.wiki/images/Bronze_off_hand_warhammer_detail.png?85710
+18,1,bronze,dual claw,weapon,dual hand,72,72,150,0,0,0,slash,https://runescape.wiki/images/Bronze_off_hand_claws_detail.png?85710
+19,1,bronze,helmet,armour,null,0,0,0,0,0,30,null,https://runescape.wiki/images/Bronze_med_helm_detail.png?fa332
+20,1,bronze,full helmet,armour,null,0,0,0,0,0,30,null,https://runescape.wiki/images/Bronze_full_helm_detail.png?fa332
+21,1,bronze,chainbody,armour,null,0,0,0,0,0,34.5,null,https://runescape.wiki/images/Bronze_chainbody_detail.png?fa332
+22,1,bronze,platebody,armour,null,0,0,0,0,0,34.5,null,https://runescape.wiki/images/Bronze_platebody_detail.png?fa332
+23,1,bronze,plateskirt,armour,null,0,0,0,0,0,33,null,https://runescape.wiki/images/Bronze_plateskirt_detail.png?fa332
+24,1,bronze,platelegs,armour,null,0,0,0,0,0,33,null,https://runescape.wiki/images/Bronze_platelegs_detail.png?fa332
+25,1,bronze,boots,armour,null,0,0,0,0,0,7.5,null,https://runescape.wiki/images/Bronze_armoured_boots_detail.png?fa332
+26,1,bronze,gauntlets,armour,null,0,0,0,0,0,7.5,null,https://runescape.wiki/images/Bronze_gauntlets_detail.png?fa332
+27,1,bronze,square shield,armour,null,0,0,0,0,0,30,null,https://runescape.wiki/images/Bronze_square_shield_detail.png?fa332
+28,1,bronze,kite shield,armour,null,0,0,0,0,0,30,null,https://runescape.wiki/images/Bronze_kiteshield_detail.png?fa332
+29,1,bronze,light set,armour,null,0,0,0,0,0,142.5,null,https://runescape.wiki/images/Bronze_armour_set_%28sk%29.png?31c91
+30,1,bronze,heavy set,armour,null,0,0,0,0,0,142.5,null,https://runescape.wiki/images/Bronze_armour_set_%28lg%29.png?13056
+31,10,iron,dagger,weapon,one hand,105.6,105.6,213,0,0,0,stab,https://runescape.wiki/images/Iron_dagger_detail.png?fa332
+32,10,iron,sword,weapon,one hand,105.6,105.6,213,0,0,0,stab,https://runescape.wiki/images/Iron_sword_detail.png?fa332
+33,10,iron,longsword,weapon,one hand,134.8,105.6,213,0,0,0,slash,https://runescape.wiki/images/Iron_longsword_detail.png?fa332
+34,10,iron,scimitar,weapon,one hand,105.6,105.6,213,0,0,0,slash,https://runescape.wiki/images/Iron_scimitar_detail.png?fa332
+35,10,iron,mace,weapon,one hand,105.6,105.6,213,1,0,0,crush,https://runescape.wiki/images/Iron_mace_detail.png?fa332
+36,10,iron,battleaxe,weapon,one hand,163.9,105.6,213,0,0,0,slash,https://runescape.wiki/images/Iron_battleaxe_detail.png?fa332
+37,10,iron,warhammer,weapon,one hand,163.9,105.6,213,0,0,0,crush,https://runescape.wiki/images/Iron_warhammer_detail.png?fa332
+38,10,iron,spear,weapon,two hand,223.5,144,202,0,0,0,stab,https://runescape.wiki/images/Iron_spear_detail.png?fa332
+39,10,iron,two-hand sword,weapon,two hand,245.9,158.4,213,0,0,0,slash,https://runescape.wiki/images/Iron_2h_sword_detail.png?fa332
+40,10,iron,halberd,weapon,two hand,223.5,144,202,0,0,0,slash,https://runescape.wiki/images/Iron_halberd_detail.png?fa332
+41,10,iron,dual dagger,weapon,dual hand,158.4,158.4,213,0,0,0,stab,https://runescape.wiki/images/Iron_off_hand_dagger_detail.png?fa332
+42,10,iron,dual sword,weapon,dual hand,158.4,158.4,213,0,0,0,stab,https://runescape.wiki/images/Iron_off_hand_sword_detail.png?fa332
+43,10,iron,dual longsword,weapon,dual hand,202.2,158.4,213,0,0,0,stab,https://runescape.wiki/images/Iron_off_hand_longsword_detail.png?fa332
+44,10,iron,dual scimitar,weapon,dual hand,158.4,158.4,213,0,0,0,slash,https://runescape.wiki/images/Iron_off_hand_scimitar_detail.png?fa332
+45,10,iron,dual mace,weapon,dual hand,158.4,158.4,213,1,0,0,crush,https://runescape.wiki/images/Iron_off_hand_mace_detail.png?fa332
+46,10,iron,dual battleaxe,weapon,dual hand,245.8,158.4,213,0,0,0,slash,https://runescape.wiki/images/Iron_off_hand_battleaxe_detail.png?fa332
+47,10,iron,dual warhammer,weapon,dual hand,245.8,158.4,213,0,0,0,crush,https://runescape.wiki/images/Iron_off_hand_warhammer_detail.png?fa332
+48,10,iron,dual claw,weapon,dual hand,158.4,158.4,213,0,0,0,slash,https://runescape.wiki/images/Iron_claws_detail.png?fa332
+49,10,iron,helmet,armour,null,0,0,0,0,0,42.6,null,https://runescape.wiki/images/Iron_med_helm_detail.png?fa332
+50,10,iron,full helmet,armour,null,0,0,0,0,0,42.6,null,https://runescape.wiki/images/Iron_full_helm_detail.png?fa332
+51,10,iron,chainbody,armour,null,0,0,0,0,0,48.9,null,https://runescape.wiki/images/Iron_chainbody_detail.png?fa332
+52,10,iron,platebody,armour,null,0,0,0,0,0,48.9,null,https://runescape.wiki/images/Iron_platebody_detail.png?fa332
+53,10,iron,plateskirt,armour,null,0,0,0,0,0,46.8,null,https://runescape.wiki/images/Iron_plateskirt_detail.png?fa332
+54,10,iron,platelegs,armour,null,0,0,0,0,0,46.8,null,https://runescape.wiki/images/Iron_platelegs_detail.png?fa332
+55,10,iron,boots,armour,null,0,0,0,0,0,10.6,null,https://runescape.wiki/images/Iron_armoured_boots_detail.png?fa332
+56,10,iron,gauntlets,armour,null,0,0,0,0,0,10.6,null,https://runescape.wiki/images/Iron_gauntlets_detail.png?fa332
+57,10,iron,square shield,armour,null,0,0,0,0,0,42.6,null,https://runescape.wiki/images/Iron_square_shield_detail.png?fa332
+58,10,iron,kite shield,armour,null,0,0,0,0,0,42.6,null,https://runescape.wiki/images/Iron_kiteshield_detail.png?fa332
+59,10,iron,light set,armour,null,0,0,0,0,0,202.1,null,https://runescape.wiki/images/Iron_armour_set_%28lg%29.png?995b9
+60,10,iron,heavy set,armour,null,0,0,0,0,0,202.1,null,https://runescape.wiki/images/Iron_armour_set_%28sk%29.png?eb3a0
+61,20,steel,dagger,weapon,one hand,201.6,201.6,329,0,0,0,stab,https://runescape.wiki/images/Steel_dagger_detail.png?fa332
+62,20,steel,sword,weapon,one hand,201.6,201.6,329,0,0,0,stab,https://runescape.wiki/images/Steel_sword_detail.png?fa332
+63,20,steel,longsword,weapon,one hand,257.3,201.6,329,0,0,0,slash,https://runescape.wiki/images/Steel_longsword_detail.png?fa332
+64,20,steel,scimitar,weapon,one hand,201.6,201.6,329,0,0,0,slash,https://runescape.wiki/images/Steel_scimitar_detail.png?fa332
+65,20,steel,mace,weapon,one hand,201.6,201.6,329,2,0,0,crush,https://runescape.wiki/images/Steel_mace_detail.png?fa332
+66,20,steel,battleaxe,weapon,one hand,312.9,201.6,329,0,0,0,slash,https://runescape.wiki/images/Steel_battleaxe_detail.png?fa332
+67,20,steel,warhammer,weapon,one hand,312.9,201.6,329,0,0,0,crush,https://runescape.wiki/images/Steel_warhammer_detail.png?fa332
+68,20,steel,spear,weapon,two hand,447,288,316,0,0,0,stab,https://runescape.wiki/images/Steel_spear_detail.png?fa332
+69,20,steel,two-hand sword,weapon,two hand,469.4,302.4,329,0,0,0,slash,https://runescape.wiki/images/Steel_2h_sword_detail.png?fa332
+70,20,steel,halberd,weapon,two hand,447,288,316,0,0,0,slash,https://runescape.wiki/images/Steel_halberd_detail.png?fa332
+71,20,steel,dual dagger,weapon,dual hand,302.4,302.4,329,0,0,0,stab,https://runescape.wiki/images/Steel_off_hand_dagger_detail.png?fa332
+72,20,steel,dual sword,weapon,dual hand,302.4,302.4,329,0,0,0,stab,https://runescape.wiki/images/Steel_off_hand_sword_detail.png?fa332
+73,20,steel,dual longsword,weapon,dual hand,385.9,302.4,329,0,0,0,slash,https://runescape.wiki/images/Steel_off_hand_longsword_detail.png?fa332
+74,20,steel,dual scimitar,weapon,dual hand,302.4,302.4,329,0,0,0,slash,https://runescape.wiki/images/Steel_off_hand_scimitar_detail.png?fa332
+75,20,steel,dual mace,weapon,dual hand,302.4,302.4,329,2,0,0,crush,https://runescape.wiki/images/Steel_off_hand_mace_detail.png?fa332
+76,20,steel,dual battleaxe,weapon,dual hand,469.3,302.4,329,0,0,0,stab,https://runescape.wiki/images/Steel_off_hand_battleaxe_detail.png?fa332
+77,20,steel,dual warhammer,weapon,dual hand,469.3,302.4,329,0,0,0,stab,https://runescape.wiki/images/Steel_off_hand_warhammer_detail.png?fa332
+78,20,steel,dual claw,weapon,dual hand,302.4,302.4,329,0,0,0,stab,https://runescape.wiki/images/Steel_off_hand_claws_detail.png?fa332
+79,20,steel,helmet,armour,null,0,0,0,0,0,65.8,null,https://runescape.wiki/images/Steel_med_helm_detail.png?fa332
+80,20,steel,full helmet,armour,null,0,0,0,0,0,65.8,null,https://runescape.wiki/images/Steel_full_helm_detail.png?fa332
+81,20,steel,chainbody,armour,null,0,0,0,0,0,75.6,null,https://runescape.wiki/images/Steel_chainbody_detail.png?fa332
+82,20,steel,platebody,armour,null,0,0,0,0,0,75.6,null,https://runescape.wiki/images/Steel_platebody_detail.png?fa332
+83,20,steel,plateskirt,armour,null,0,0,0,0,0,72.3,null,https://runescape.wiki/images/Steel_plateskirt_detail.png?fa332
+84,20,steel,platelegs,armour,null,0,0,0,0,0,72.3,null,https://runescape.wiki/images/Steel_platelegs_detail.png?fa332
+85,20,steel,boots,armour,null,0,0,0,0,0,16.4,null,https://runescape.wiki/images/Steel_armoured_boots_detail.png?fa332
+86,20,steel,gauntlets,armour,null,0,0,0,0,0,16.4,null,https://runescape.wiki/images/Steel_gauntlets_detail.png?fa332
+87,20,steel,square shield,armour,null,0,0,0,0,0,65.8,null,https://runescape.wiki/images/Steel_square_shield_detail.png?fa332
+88,20,steel,kite shield,armour,null,0,0,0,0,0,65.8,null,https://runescape.wiki/images/Steel_kiteshield_detail.png?fa332
+89,20,steel,light set,armour,null,0,0,0,0,0,312.3,null,https://runescape.wiki/images/Steel_armour_set_%28lg%29.png?9fb06
+90,20,steel,heavy set,armour,null,0,0,0,0,0,312.3,null,https://runescape.wiki/images/Steel_armour_set_%28sk%29.png?0f1f0
