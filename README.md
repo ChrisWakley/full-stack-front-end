@@ -1,11 +1,15 @@
 #full-stack-front-end
 
-This Project links with my other repo "full-stack-back-end" to create a full stack project. The whole project links together to present an Single Page Application, a web based database that gives you a full breakdown of weaponry and armour statistics for the online game: Runescape 3.
+This Project links with my other repo "full-stack-back-end" to create a full stack project. The whole project links together to present a Single Page Application; a web based database that gives you a full breakdown of weaponry and armour statistics for the online game: Runescape 3.
 
-This project contains my React front end, it communicates with my back end API to pull data from my mySQL database in order to populate and display cards of weaponry and armour items in the game. Functional logic allows you to filter the items by material type as well as add line entries to the database and delete items from the database.
+The time window we were given for the full project during my Nology course was one week, I'm very happy with how much I got created and working in that time.
 
-It is a work in progress and likely will be for a while as I have several future plans I wish to implement such as:
+This project contains my React front end, it communicates with my back end API to pull data from a mySQL database in order to populate and display cards of weaponry and armour items in the game. Functional logic allows you to filter the items by material type as well as add and delete line entries in the database.
 
+This project is ongoing and likely will be for the foreseeable future, as I have several other features planned that I wish to implement such as:
+
+ - add media queries to allow for page responsiveness on various different screen sizes, currently its built to be visually displayed on a pc monitor only.
+ - adding a call to edit currently existing data.
  - adding the full list of in game weapons and armours to the database - add each material tier to the filter functionality.
  - adding the functionality to be able to compare the same item from different material sets with the intention of giving someone a general idea of how much of a power boost each tier is from one material to the next.
  - long term goal of functionality allowing users to creat a weapon and armour loadout which gives the full sets effects and stat improvements when worn. This could be further enhanced by combining it with the previously mentioned compare function to give the ability to compare two full loadouts.
